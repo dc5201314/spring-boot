@@ -11,6 +11,7 @@
 	<groupId>top.dc</groupId>
 	<artifactId>spring-boot-practice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>spring-boot-practice</name>
 	<description>spring-boot-practice</description>
 	<url/>
@@ -20,6 +21,12 @@
 	<developers>
 		<developer/>
 	</developers>
+	<modules>
+		<module>spring-boot-thymeleaf</module>
+        <module>spring-boot-logging</module>
+		<module>My-zhihu-api1</module>
+        <module>spring-boot-configure</module>
+    </modules>
 	<scm>
 		<connection/>
 		<developerConnection/>
@@ -46,6 +53,9 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+
+
 	</dependencies>
 
 	<build>

@@ -1,0 +1,236 @@
+2024-09-09 20:31:13.681 INFO  [restartedMain] top.Application : Starting Application using Java 17.0.8.1 with PID 24076 (D:\share\spring-boot-practice\spring-boot-logging\target\classes started by 86188 in D:\share\spring-boot-practice)
+2024-09-09 20:31:13.684 INFO  [restartedMain] top.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 20:31:13.754 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 20:31:13.755 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 20:31:14.793 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 20:31:14.796 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [2.0.5] using APR version [1.7.4].
+2024-09-09 20:31:14.801 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 3.0.10 1 Aug 2023]
+2024-09-09 20:31:14.812 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 20:31:14.817 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 20:31:14.817 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 20:31:14.862 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 20:31:14.862 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1098 ms
+2024-09-09 20:31:15.275 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-09 20:31:15.294 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 20:31:15.316 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 20:31:15.328 INFO  [restartedMain] top.Application : Started Application in 2.305 seconds (process running for 3.018)
+2024-09-13 13:01:18.076 INFO  [restartedMain] top.Application : Starting Application using Java 17.0.8.1 with PID 25184 (D:\share\spring-boot-practice\spring-boot-logging\target\classes started by 86188 in D:\share\spring-boot-practice)
+2024-09-13 13:01:18.078 INFO  [restartedMain] top.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-13 13:01:18.179 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-13 13:01:18.180 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-13 13:01:19.208 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-13 13:01:19.210 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [2.0.5] using APR version [1.7.4].
+2024-09-13 13:01:19.225 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 3.0.10 1 Aug 2023]
+2024-09-13 13:01:19.233 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:01:19.236 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-13 13:01:19.236 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-13 13:01:19.274 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-13 13:01:19.274 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1094 ms
+2024-09-13 13:01:19.603 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-13 13:01:19.613 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:01:19.629 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-13 13:01:19.638 INFO  [restartedMain] top.Application : Started Application in 2.064 seconds (process running for 3.296)
+2024-09-13 13:02:16.748 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-13 13:02:16.748 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-13 13:02:16.749 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2024-09-13 13:11:52.442 WARN  [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。]
+2024-09-13 13:11:54.347 INFO  [restartedMain] top.Application : Starting Application using Java 17.0.8.1 with PID 24508 (D:\share\spring-boot-practice\spring-boot-logging\target\classes started by 86188 in D:\share\spring-boot-practice)
+2024-09-13 13:11:54.349 INFO  [restartedMain] top.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-13 13:11:54.383 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-13 13:11:54.383 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-13 13:11:54.956 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-13 13:11:54.959 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [2.0.5] using APR version [1.7.4].
+2024-09-13 13:11:54.962 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 3.0.10 1 Aug 2023]
+2024-09-13 13:11:54.968 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:11:54.970 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-13 13:11:54.971 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-13 13:11:54.995 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-13 13:11:54.996 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 612 ms
+2024-09-13 13:11:55.211 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-13 13:11:55.221 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:11:55.235 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-13 13:11:55.241 INFO  [restartedMain] top.Application : Started Application in 1.229 seconds (process running for 1.592)
+2024-09-13 13:12:36.471 INFO  [restartedMain] top.Application : Starting Application using Java 17.0.8.1 with PID 34256 (D:\share\spring-boot-practice\spring-boot-logging\target\classes started by 86188 in D:\share\spring-boot-practice)
+2024-09-13 13:12:36.473 INFO  [restartedMain] top.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-13 13:12:36.508 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-13 13:12:36.508 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-13 13:12:37.072 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-13 13:12:37.075 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [2.0.5] using APR version [1.7.4].
+2024-09-13 13:12:37.078 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 3.0.10 1 Aug 2023]
+2024-09-13 13:12:37.084 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:12:37.086 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-13 13:12:37.086 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-13 13:12:37.113 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-13 13:12:37.113 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 604 ms
+2024-09-13 13:12:37.371 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-13 13:12:37.386 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:12:37.400 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-13 13:12:37.408 INFO  [restartedMain] top.Application : Started Application in 1.293 seconds (process running for 1.717)
+2024-09-13 13:12:57.046 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-09-13 13:12:57.048 INFO  [Thread-5] org.apache.coyote.http11.Http11NioProtocol : Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:12:57.314 INFO  [restartedMain] top.Application : Starting Application using Java 17.0.8.1 with PID 34256 (D:\share\spring-boot-practice\spring-boot-logging\target\classes started by 86188 in D:\share\spring-boot-practice)
+2024-09-13 13:12:57.314 INFO  [restartedMain] top.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-13 13:12:57.444 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-13 13:12:57.444 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [2.0.5] using APR version [1.7.4].
+2024-09-13 13:12:57.444 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 3.0.10 1 Aug 2023]
+2024-09-13 13:12:57.444 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:12:57.444 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-13 13:12:57.446 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-13 13:12:57.452 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-13 13:12:57.452 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 137 ms
+2024-09-13 13:12:57.508 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-13 13:12:57.512 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:12:57.516 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-13 13:12:57.522 INFO  [restartedMain] top.Application : Started Application in 0.232 seconds (process running for 21.83)
+2024-09-13 13:12:57.523 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-13 13:12:58.926 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-09-13 13:12:58.927 INFO  [Thread-7] org.apache.coyote.http11.Http11NioProtocol : Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:12:59.141 INFO  [restartedMain] top.Application : Starting Application using Java 17.0.8.1 with PID 34256 (D:\share\spring-boot-practice\spring-boot-logging\target\classes started by 86188 in D:\share\spring-boot-practice)
+2024-09-13 13:12:59.142 INFO  [restartedMain] top.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-13 13:12:59.238 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-13 13:12:59.239 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [2.0.5] using APR version [1.7.4].
+2024-09-13 13:12:59.239 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 3.0.10 1 Aug 2023]
+2024-09-13 13:12:59.239 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:12:59.239 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-13 13:12:59.239 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-13 13:12:59.246 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-13 13:12:59.246 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 103 ms
+2024-09-13 13:12:59.280 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-13 13:12:59.283 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:12:59.285 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-13 13:12:59.288 INFO  [restartedMain] top.Application : Started Application in 0.164 seconds (process running for 23.597)
+2024-09-13 13:12:59.289 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-13 13:13:32.200 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-13 13:13:32.201 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-13 13:13:32.201 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 0 ms
+2024-09-13 13:15:00.285 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-13 13:15:00.287 INFO  [Thread-11] org.apache.coyote.http11.Http11NioProtocol : Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:15:00.548 INFO  [restartedMain] top.Application : Starting Application using Java 17.0.8.1 with PID 34256 (D:\share\spring-boot-practice\spring-boot-logging\target\classes started by 86188 in D:\share\spring-boot-practice)
+2024-09-13 13:15:00.549 INFO  [restartedMain] top.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-13 13:15:00.639 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-13 13:15:00.639 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [2.0.5] using APR version [1.7.4].
+2024-09-13 13:15:00.639 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 3.0.10 1 Aug 2023]
+2024-09-13 13:15:00.640 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:15:00.640 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-13 13:15:00.640 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-13 13:15:00.645 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-13 13:15:00.645 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 95 ms
+2024-09-13 13:15:00.678 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-13 13:15:00.681 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:15:00.683 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-13 13:15:00.685 INFO  [restartedMain] top.Application : Started Application in 0.156 seconds (process running for 144.994)
+2024-09-13 13:15:00.686 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-13 13:15:03.235 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-13 13:15:03.236 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-13 13:15:03.236 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 0 ms
+2024-09-13 13:18:05.985 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-13 13:18:05.986 INFO  [Thread-15] org.apache.coyote.http11.Http11NioProtocol : Stopping ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:18:06.209 INFO  [restartedMain] top.Application : Starting Application using Java 17.0.8.1 with PID 34256 (D:\share\spring-boot-practice\spring-boot-logging\target\classes started by 86188 in D:\share\spring-boot-practice)
+2024-09-13 13:18:06.209 INFO  [restartedMain] top.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-13 13:18:06.280 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-13 13:18:06.280 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [2.0.5] using APR version [1.7.4].
+2024-09-13 13:18:06.280 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 3.0.10 1 Aug 2023]
+2024-09-13 13:18:06.280 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:18:06.281 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-13 13:18:06.281 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-13 13:18:06.286 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-13 13:18:06.286 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 76 ms
+2024-09-13 13:18:06.316 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties': Could not bind properties to 'DevToolsProperties' : prefix=spring.devtools, ignoreInvalidFields=false, ignoreUnknownFields=true
+2024-09-13 13:18:06.316 INFO  [restartedMain] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2024-09-13 13:18:06.319 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-13 13:18:06.332 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.devtools.remote' to org.springframework.boot.devtools.autoconfigure.RemoteDevToolsProperties:
+
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [@org.springframework.boot.context.properties.NestedConfigurationProperty org.springframework.boot.devtools.autoconfigure.RemoteDevToolsProperties]
+
+Action:
+
+Update your application's configuration
+
+2024-09-13 13:18:32.027 INFO  [restartedMain] top.Application : Starting Application using Java 17.0.8.1 with PID 34256 (D:\share\spring-boot-practice\spring-boot-logging\target\classes started by 86188 in D:\share\spring-boot-practice)
+2024-09-13 13:18:32.027 INFO  [restartedMain] top.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-13 13:18:32.098 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-13 13:18:32.099 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [2.0.5] using APR version [1.7.4].
+2024-09-13 13:18:32.099 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 3.0.10 1 Aug 2023]
+2024-09-13 13:18:32.099 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:18:32.099 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-13 13:18:32.100 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-13 13:18:32.106 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-13 13:18:32.106 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 78 ms
+2024-09-13 13:18:32.132 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties': Could not bind properties to 'DevToolsProperties' : prefix=spring.devtools, ignoreInvalidFields=false, ignoreUnknownFields=true
+2024-09-13 13:18:32.133 INFO  [restartedMain] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2024-09-13 13:18:32.136 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-13 13:18:32.137 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.devtools.remote' to org.springframework.boot.devtools.autoconfigure.RemoteDevToolsProperties:
+
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [@org.springframework.boot.context.properties.NestedConfigurationProperty org.springframework.boot.devtools.autoconfigure.RemoteDevToolsProperties]
+
+Action:
+
+Update your application's configuration
+
+2024-09-13 13:18:52.780 INFO  [restartedMain] top.Application : Starting Application using Java 17.0.8.1 with PID 34256 (D:\share\spring-boot-practice\spring-boot-logging\target\classes started by 86188 in D:\share\spring-boot-practice)
+2024-09-13 13:18:52.781 INFO  [restartedMain] top.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-13 13:18:52.841 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-13 13:18:52.842 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [2.0.5] using APR version [1.7.4].
+2024-09-13 13:18:52.842 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 3.0.10 1 Aug 2023]
+2024-09-13 13:18:52.842 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:18:52.843 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-13 13:18:52.843 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-13 13:18:52.848 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-13 13:18:52.848 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 66 ms
+2024-09-13 13:18:52.874 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-13 13:18:52.878 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-13 13:18:52.880 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-13 13:18:52.884 INFO  [restartedMain] top.Application : Started Application in 0.117 seconds (process running for 377.193)
+2024-09-13 13:18:52.885 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-24 11:49:31.883 INFO  [restartedMain] top.Application : Starting Application using Java 17.0.8.1 with PID 20132 (D:\share\spring-boot-practice\spring-boot-logging\target\classes started by 86188 in D:\share\spring-boot-practice)
+2024-09-24 11:49:31.885 INFO  [restartedMain] top.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-24 11:49:31.934 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-24 11:49:31.935 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-24 11:49:32.599 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-24 11:49:32.602 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [2.0.5] using APR version [1.7.4].
+2024-09-24 11:49:32.606 INFO  [restartedMain] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 3.0.10 1 Aug 2023]
+2024-09-24 11:49:32.610 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-24 11:49:32.612 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-24 11:49:32.612 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24 11:49:32.637 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-24 11:49:32.638 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 702 ms
+2024-09-24 11:49:32.846 WARN  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-09-24 11:49:32.863 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-24 11:49:32.876 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-24 11:49:32.890 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-24 11:49:32.906 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

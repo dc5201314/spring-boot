@@ -1,0 +1,59 @@
+server:
+  host: "localhost"
+  port: 8080
+  context-path: "/api"
+family:
+  family-name: "happss"
+  father: ${father.name:zhangsan}
+  mother: "Rose"
+  child: "Tom"
+  age: 20
+person:
+  first-name: "John"
+  last-name: "Doe"
+  age: ${random.int(20,50)}
+  id: ${random.uuid}
+  phone: 1234567890
+student:
+  name: 张⼩聪
+  age: 20
+  happy: true
+  birth: 2004/01/01
+  map: {k1: v1,k2: v2}
+  list:
+    - code
+    - read
+    - music
+  dog:
+    name: ⻁⼦
+    age: 11
+logging:
+  level:
+    top:
+      entity: INFO
+    org:
+      springframework: WARN
+db:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/spring_boot?useSSL=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+  username: root
+  password: 123456
+jwt:
+  secret: mySecretKey # JWT密钥
+  expiration: 3600000 # 1⼩时，单位为毫秒
+custom:
+  qrcode:
+   content: "https://www.baidu.com"
+  log:
+    level: "INFO"
+  backup:
+    location: "D:\\dccc\\backup.log"
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 1090504489@qq.com
+    password: eqsgonysjsuhbabf  # 这里需要用 QQ 邮箱的授权码
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+

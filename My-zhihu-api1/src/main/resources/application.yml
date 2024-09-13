@@ -1,0 +1,14 @@
+spring:
+        datasource:
+                driver-class-name: com.mysql.cj.jdbc.Driver
+                url: jdbc:mysql://localhost:3306/spring_boot?useSSL=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+                username: root
+                password: 123456
+        jpa:
+                hibernate:
+                        ddl-auto: update
+                show-sql: true
+
+mybatis:
+        mapper-locations: classpath:/mapper/*Mapper.xml  # 确保 Mapper XML 文件路径正确
+        type-aliases-package: top.dc.entity  # 确保你的 Model 类包路径正确

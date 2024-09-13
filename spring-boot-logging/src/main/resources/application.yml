@@ -1,0 +1,14 @@
+logging:
+  level:
+    root: INFO
+    com.example.demo.controller: DEBUG
+  file:
+    name: ./logs/spring-boot-log.log
+    path: ./logs
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
+      max-history: 10
+    pattern:
+      console: '%red(%d{yyyy-MM-dd HH:mm:ss}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger{10}) - %cyan(%msg%n)'
+      file: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger : %msg%n'

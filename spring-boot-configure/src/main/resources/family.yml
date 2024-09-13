@@ -1,0 +1,8 @@
+family:
+  family-name: "happss"
+  father: ${father.name:zhangsan}
+  mother: "Rose"
+  child: "Tom"
+  age: 20
+father:
+  name: "Jack"
