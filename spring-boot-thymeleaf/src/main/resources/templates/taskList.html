@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+        button {
+            margin-left: 10px;
+            padding: 5px 10px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <title>Todo List</title>
+</head>
+<body>
+<h1>待办清单</h1>
+<!-- 新增任务 -->
+<form action="/addTask" method="post">
+    <input type="text" name="name" placeholder="请输入任务名称" id="name" required>
+    <button type="submit">添加任务</button>
+</form>
+
+<!-- 显示任务列表 -->
+<ul>
+    <li th:each="task : ${tasks}">
+        <span th:text="${task.name}" th:classappend="${task.completed} ? 'completed' : ''"></span>
+        <form action="/updateTask" method="post" style="display:inline;">
+            <input type="hidden" name="id" th:value="${task.id}">
+            <button type="submit">切换状态</button>
+        </form>
+        <form action="/deleteTask" method="post" style="display:inline;">
+            <input type="hidden" name="id" th:value="${task.id}">
+            <button type="submit">删除</button>
+        </form>
+    </li>
+</ul>
+</body>
+</html>
